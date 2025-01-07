@@ -51,23 +51,77 @@
 //    const arionNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
 //    console.log(arionNew);
 
-const age = 15;
-// const isOldEnough = age >= 18;
+// const age = 15;
+// // const isOldEnough = age >= 18;
 
-if(age >= 18) {
-    console.log('Bruna can start driving license 🚗')
-} else {
-    const yearsLeft = 18 - age;
-    console.log(`Bruna is too young. Wait another ${yearsLeft} years :)`);
-}
+// if(age >= 18) {
+//     console.log('Bruna can start driving license 🚗')
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Bruna is too young. Wait another ${yearsLeft} years :)`);
+// }
 
-const birthYear = 2002;
-let century;
+// const birthYear = 2002;
+// let century;
 
-if(birthYear <=2000) {
-    century = 20;
-} else {
-    century = 21;
-}
+// if(birthYear <=2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
 
-console.log(century);
+// // console.log(century);
+
+// const hasDriverLicense = true;
+// const hasGoodVision = true;
+// const isTired = false;
+
+// if (hasDriverLicense && hasGoodVision && !isTired) {
+//     console.log('Bruna is able to drive');
+// } else{
+//     console.log('Someone else should drive...')
+// }
+
+// const day = 'tridays';
+
+// switch(day){
+//     case 'monday':
+//         console.log('Plan course structure');
+//         console.log('Go to codig meetup');
+//         break;
+//     case 'tuesday':
+//             console.log('Prepare theory videos');
+//             break;
+//     case 'wednesday':
+//     case 'thursday':
+//             console.log('Write code examples');
+//             break;
+//     case 'friday':
+//             console.log('Record videos');
+//             break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('Enjoy the weekend :D');
+//         break;
+//     default:
+//         console.log('Not a valid day!');
+// }
+
+
+// const day = 'sunday';
+
+// if (day === 'monday') {
+//     console.log('Plan course structure');
+//     console.log('Go to coding meetup');
+// } else if (day === 'tuesday') {
+//     console.log('Prepare theory videos');
+// } else if (day === 'wednesday' || day === 'thursday') {
+//     console.log('Write code examples');
+// } else if ( day === 'friday') {
+//     console.log('Record videos');
+// } else if (day === 'saturday' || day === 'sunday'){
+//     console.log('Enjoy the weekend :D');
+// } else {
+//     console.log('Not a valid day');
+// }
+
