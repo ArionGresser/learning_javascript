@@ -58,10 +58,20 @@
 
 //  console.log(fruitProcessor(10, 20))
 
-const calcAge = function
+const calcAge = function (birthyear){
+    return 2037 - birthyear;
+}
 
- const yearsUntilRetirement = (birthday, firstName) => {
-     const age = 2037 - birthday;
+ const yearsUntilRetirement = function (birthyear, firstName) {
+    const age = calcAge(birthyear)
      const retirment = 65 - age;
-     return `${firstName} retires in $`;
+     
+     if(retirment > 0){
+         return retirment;
+     } else{
+        return 'Enjoy the life vacations!'
+     }
+     
  }
+console.log(yearsUntilRetirement(2002, 'Arion'));
+console.log(yearsUntilRetirement(1960, 'Helion'));
