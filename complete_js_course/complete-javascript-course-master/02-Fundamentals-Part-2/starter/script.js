@@ -109,15 +109,22 @@
 // console.log(ages)
 
 const friends = ['Halison', 'Eduardo', 'Luigi'];
+
+// Add Elements
 friends.push('Helion');
 console.log(friends);
+
 
 friends.unshift('Alex');
 console.log(friends);
 
+// Remove elements
 friends.pop();
 friends.pop();
 console.log(friends);
 
 friends.shift();
-console.log(friends)
+console.log(friends);
+
+console.log(friends.indexOf('Eduardo'));
+
