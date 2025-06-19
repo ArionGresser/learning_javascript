@@ -4,17 +4,17 @@
 
 // 1.2 Log their values to the console.
 
-let country = "Croatia";
-let continent = "Europe";
-let population = "3.9";
-let isIsland = false;
-let language;
+// let country = "Croatia";
+// let continent = "Europe";
+// let population = "3.9";
+// let isIsland = false;
+// let language;
 
-console.log(country);
-console.log(continent);
-console.log(population);
-console.log(isIsland);
-console.log(language);
+// console.log(country);
+// console.log(continent);
+// console.log(population);
+// console.log(isIsland);
+// console.log(language);
 
 // 2. Data Types
 
@@ -22,7 +22,9 @@ console.log(language);
 
 // 2.2 Log the types of isIsland, population, country and language to the console.
 
-console.log(typeof isIsland);
-console.log(typeof population);
-console.log(typeof country);
-console.log(typeof language);
+// console.log(typeof isIsland);
+// console.log(typeof population);
+// console.log(typeof country);
+// console.log(typeof language);
+
+
