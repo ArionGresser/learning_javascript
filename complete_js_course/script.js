@@ -86,13 +86,16 @@
 //     console.log('You have a friend called Steven');
 // }
 
-const jonas = {
-    firstName: 'Jonas',
-    lastName: 'Schmedtmann',
-    age: 2037 - 1991,
-    job: 'teacher',
-    friends: ['Michael', 'Peter', 'Steven']
-}
+//////////////////////////////////////
+// Dot vs. Bracket Notation
+
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     age: 2037 - 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven']
+// };
 // console.log(jonas);
 
 // console.log(jonas.lastName);
@@ -117,7 +120,41 @@ const jonas = {
 // Little Chalange
 //Jonas has 3 friends, and his best friend is called Michael
 
-console.log([jonas.firstName], 'has', [jonas.friends.length], 'and his bestfriend is', [jonas.friends[0]]);
+// console.log([jonas.firstName], 'has', [jonas.friends.length], 'and his bestfriend is', [jonas.friends[0]]);
 
-console.log(`${jonas.firstName} has ${jonas.friends.length} and his bestfriend is ${jonas.friends[0]}`);
+// console.log(`${jonas.firstName} has ${jonas.friends.length} and his bestfriend is ${jonas.friends[0]}`);
 
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     birthYear: 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven'],
+//     hasDriverslicense: true,
+
+    // calcAge: function(birthYear){
+    //     return 2037 - birthYear;
+    // }
+    //  calcAge: function() {
+    //     // console.log(this);
+    //     return 2037 - this.birthYear;
+    // }
+//      calcAge: function() {
+//         this.age = 2037 - this.birthYear;
+//         return this.age;
+//     },
+//     getSummary: function(){
+//         return `${this.firstName} is a ${this.calcAge()}-year old ${jonas.job}, and he has ${this.hasDriverslicense ? 'a' : 'no'} driver's license.`
+//     }
+// };
+
+// console.log(jonas.calcAge);
+// console.log(jonas.age);
+
+// console.log(jonas['calcAge'](1991));
+
+
+// Challenge
+// "Jonas is a 46-year old teacher, and he has a/no driver license"
+
+// console.log(jonas.getSummary());
